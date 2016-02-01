@@ -1,0 +1,2497 @@
+[{
+    "_id": "54080fa713568f352fedade4",
+    "__v": 22,
+    "available": 2,
+    "background_en": null,
+    "background_ru": null,
+    "ext_id": "happystarts",
+    "name_en": "Happy starts",
+    "name_ru": "╨Æ╨╡╤ü╤æ╨╗╤ï╨╡ ╤ü╤é╨░╤Ç╤é╤ï",
+    "offer": null,
+    "type": "instant",
+    "design_id": "basketball_api",
+    "_w": 0,
+    "parentId": "53f377bdf3beb5872a2e6309",
+    "is_default_design": true,
+    "ticketDataTemp": {
+      "buyTicket": {
+        "elements": [
+          {
+            "constraints": [
+              {
+                "attribute1": 0,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "backgroundImageView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 4
+              }
+            ],
+            "name": "backgroundImageView",
+            "parameters": {
+              "image": "ios_happystarts_basketball_api_ticket_outoftickets_bg",
+              "mode": 2
+            },
+            "parent_name": null,
+            "type": "imageView"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 5,
+                "attribute2": 0,
+                "constant": 18,
+                "from_object": "hintLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 7
+              },
+              {
+                "attribute1": 6,
+                "attribute2": 0,
+                "constant": 18,
+                "from_object": "hintLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 7
+              },
+              {
+                "attribute1": 9,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "hintLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 3
+              },
+              {
+                "attribute1": 10,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "hintLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 3
+              }
+            ],
+            "name": "hintLabel",
+            "parameters": {
+              "font": {
+                "name": "BeauSans-Rub-SemiBold",
+                "size": 22
+              },
+              "text": {
+                "en": "test",
+                "ru": "╨æ╨╕╨╗╨╡╤é╤ï ╨╖╨░╨║╨╛╨╜╤ç╨╕╨╗╨╕╤ü╤î,\n╨┐╤Ç╨╡╨┤╨╗╨░╨│╨░╨╡╨╝ ╨║╤â╨┐╨╕╤é╤î ╨╡╤ë╨╡!"
+              },
+              "textAlignment": 1,
+              "textColor": [
+                255,
+                255,
+                255,
+                1
+              ]
+            },
+            "parent_name": null,
+            "type": "label"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 8,
+                "attribute2": 0,
+                "constant": 44,
+                "from_object": "buyButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 1
+              },
+              {
+                "attribute1": 6,
+                "attribute2": 0,
+                "constant": 20,
+                "from_object": "buyButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 7
+              },
+              {
+                "attribute1": 5,
+                "attribute2": 0,
+                "constant": 20,
+                "from_object": "buyButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 7
+              },
+              {
+                "attribute1": 3,
+                "attribute2": 4,
+                "constant": 20,
+                "from_object": "buyButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "hintLabel",
+                "type": 2
+              }
+            ],
+            "name": "buyButton",
+            "parameters": {
+              "states": [
+                {
+                  "state": 0,
+                  "title": " ╨Ü╨ú╨ƒ╨ÿ╨ó╨¼ ╨ò╨⌐╨ü"
+                }
+              ]
+            },
+            "parent_name": null,
+            "type": "whiteButton"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 3,
+                "attribute2": 4,
+                "constant": 16,
+                "from_object": "priceLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "buyButton",
+                "type": 2
+              },
+              {
+                "attribute1": 9,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "priceLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 3
+              }
+            ],
+            "name": "priceLabel",
+            "parameters": {
+              "font": {
+                "name": "BeauSans-Rub-SemiBold",
+                "size": 13
+              },
+              "text": {
+                "en": "test",
+                "ru": "╨í╤é╨╛╨╕╨╝╨╛╤ü╤é╤î ╨▒╨╕╨╗╨╡╤é╨░ ΓÇö 20 Γäª"
+              },
+              "textAlignment": 1,
+              "textColor": [
+                255,
+                255,
+                255,
+                1
+              ]
+            },
+            "parent_name": null,
+            "type": "label"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 4,
+                "attribute2": 0,
+                "constant": 16,
+                "from_object": "ticketCostLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 7
+              },
+              {
+                "attribute1": 9,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "ticketCostLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 3
+              }
+            ],
+            "name": "ticketCostLabel",
+            "parameters": {
+              "font": {
+                "name": "BeauSans-Rub-Semibold",
+                "size": 13
+              },
+              "text": {
+                "en": "test",
+                "ru": "╨á╨░╨╖╤ï╨│╤Ç╨░╨╜╨╜╤ï╨╡ ╨▒╨╕╨╗╨╡╤é╤ï ╨▓╤ï ╨╝╨╛╨╢╨╡╤é╨╡\n╨╜╨░╨╣╤é╨╕ ╨▓ ╤Ç╨░╨╖╨┤╨╡╨╗╨╡ ╨║╨▓╨╕╤é╨░╨╜╤å╨╕╨╣."
+              },
+              "textAlignment": 1,
+              "textColor": [
+                255,
+                255,
+                255,
+                0.6
+              ]
+            },
+            "parent_name": null,
+            "type": "label"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 4,
+                "attribute2": 3,
+                "constant": 0,
+                "from_object": "topContainer",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "hintLabel",
+                "type": 2
+              },
+              {
+                "attribute1": 3,
+                "attribute2": 4,
+                "constant": 0,
+                "from_object": "topContainer",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 7
+              },
+              {
+                "attribute1": 6,
+                "attribute2": 4,
+                "constant": 0,
+                "from_object": "topContainer",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 7
+              },
+              {
+                "attribute1": 5,
+                "attribute2": 4,
+                "constant": 0,
+                "from_object": "topContainer",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 7
+              }
+            ],
+            "name": "topContainer",
+            "parent_name": null,
+            "type": "view"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 14,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "logoImageView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 6
+              },
+              {
+                "attribute1": 7,
+                "attribute2": 0,
+                "constant": 100,
+                "from_object": "logoImageView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 1
+              },
+              {
+                "attribute1": 8,
+                "attribute2": 0,
+                "constant": 100,
+                "from_object": "logoImageView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 1
+              }
+            ],
+            "name": "logoImageView",
+            "parameters": {
+              "image": "ios_happystarts_basketball_api_ticket_outoftickets_logo"
+            },
+            "parent_name": "topContainer",
+            "type": "imageView"
+          }
+        ]
+      },
+      "heightOriginal": 600,
+      "isScalable": true,
+      "mainscreen": {
+        "elements": [
+          {
+            "constraints": [
+              {
+                "attribute1": 14,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "backgroundImageView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 4
+              }
+            ],
+            "name": "backgroundImageView",
+            "parameters": {
+              "image": "ios_happystarts_basketball_api_bg"
+            },
+            "parent_name": null,
+            "type": "imageView"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 8,
+                "attribute2": 0,
+                "constant": 22,
+                "from_object": "jackpotLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 1
+              },
+              {
+                "attribute1": 9,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "jackpotLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 3
+              },
+              {
+                "attribute1": 10,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "jackpotLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 3
+              }
+            ],
+            "name": "jackpotLabel",
+            "parameters": {
+              "font": {
+                "name": "BeauSans-Rub-SemiBold",
+                "size": 18
+              },
+              "text": {
+                "en": "",
+                "ru": "╨▓╤ï╨╕╨│╤Ç╤ï╤ê ╨┤╨╛ 200 000 Γäª"
+              },
+              "textColor": [
+                255,
+                255,
+                255,
+                1
+              ]
+            },
+            "parent_name": null,
+            "type": "label"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 8,
+                "attribute2": 0,
+                "constant": 40,
+                "from_object": "gameNameLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 1
+              },
+              {
+                "attribute1": 9,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "gameNameLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 3
+              },
+              {
+                "attribute1": 4,
+                "attribute2": 3,
+                "constant": -30,
+                "from_object": "gameNameLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "jackpotLabel",
+                "type": 2
+              }
+            ],
+            "name": "gameNameLabel",
+            "parameters": {
+              "font": {
+                "name": "BeauSans-Rub-SemiBold",
+                "size": 32
+              },
+              "text": {
+                "en": "Happy starts",
+                "ru": "╨Æ╨╡╤ü╤æ╨╗╤ï╨╡ ╤ü╤é╨░╤Ç╤é╤ï"
+              },
+              "textColor": [
+                255,
+                255,
+                255,
+                1
+              ]
+            },
+            "parent_name": null,
+            "type": "label"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 3,
+                "attribute2": 0,
+                "constant": 12,
+                "from_object": "logoContainerView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 7
+              },
+              {
+                "attribute1": 6,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "logoContainerView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 7
+              },
+              {
+                "attribute1": 5,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "logoContainerView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 7
+              },
+              {
+                "attribute1": 4,
+                "attribute2": 3,
+                "constant": -12,
+                "from_object": "logoContainerView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "gameNameLabel",
+                "type": 2
+              }
+            ],
+            "name": "logoContainerView",
+            "parent_name": null,
+            "type": "view"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 0,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "logoImageView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 6
+              },
+              {
+                "attribute1": 7,
+                "attribute2": 0,
+                "constant": 140,
+                "from_object": "logoImageView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 1
+              },
+              {
+                "attribute1": 8,
+                "attribute2": 0,
+                "constant": 140,
+                "from_object": "logoImageView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 1
+              }
+            ],
+            "name": "logoImageView",
+            "parameters": {
+              "image": "ios_happystarts_basketball_api_ticket_outoftickets_logo"
+            },
+            "parent_name": "logoContainerView",
+            "type": "imageView"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 8,
+                "attribute2": 0,
+                "constant": 20,
+                "from_object": "ticketCostLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 1
+              },
+              {
+                "attribute1": 4,
+                "attribute2": 4,
+                "constant": -20,
+                "from_object": "ticketCostLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 2
+              },
+              {
+                "attribute1": 9,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "ticketCostLabel",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 3
+              }
+            ],
+            "name": "ticketCostLabel",
+            "parameters": {
+              "font": {
+                "name": "BeauSans-Rub-Normal",
+                "size": 13
+              },
+              "text": {
+                "en": "",
+                "ru": "╨í╤é╨╛╨╕╨╝╨╛╤ü╤é╤î ╨▒╨╕╨╗╨╡╤é╨░ ΓÇò 20 Γäª"
+              },
+              "textAlignment": 1,
+              "textColor": [
+                255,
+                255,
+                255,
+                1
+              ]
+            },
+            "parent_name": null,
+            "type": "label"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 3,
+                "attribute2": 4,
+                "constant": 12,
+                "from_object": "buttonsContainerView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "jackpotLabel",
+                "type": 2
+              },
+              {
+                "attribute1": 6,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "buttonsContainerView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 7
+              },
+              {
+                "attribute1": 5,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "buttonsContainerView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 7
+              },
+              {
+                "attribute1": 4,
+                "attribute2": 3,
+                "constant": -12,
+                "from_object": "buttonsContainerView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "ticketCostLabel",
+                "type": 2
+              },
+              {
+                "attribute1": 7,
+                "attribute2": 0,
+                "constant": 360,
+                "from_object": "buttonsContainerView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 10
+              }
+            ],
+            "name": "buttonsContainerView",
+            "parent_name": null,
+            "type": "view"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 7,
+                "attribute2": 0,
+                "constant": 44,
+                "from_object": "updateButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 1
+              },
+              {
+                "attribute1": 8,
+                "attribute2": 0,
+                "constant": 44,
+                "from_object": "updateButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 1
+              },
+              {
+                "attribute1": 6,
+                "attribute2": 6,
+                "constant": 20,
+                "from_object": "updateButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 7
+              },
+              {
+                "attribute1": 10,
+                "attribute2": 0,
+                "constant": -30,
+                "from_object": "updateButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "buttonsContainerView",
+                "type": 3
+              }
+            ],
+            "name": "updateButton",
+            "parameters": {
+              "states": [
+                {
+                  "image": "ticket_update_bottom_ico.png",
+                  "state": 0
+                }
+              ]
+            },
+            "parent_name": "buttonsContainerView",
+            "type": "whiteButton"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 5,
+                "attribute2": 5,
+                "constant": 20,
+                "from_object": "playButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "buttonsContainerView",
+                "type": 7
+              },
+              {
+                "attribute1": 5,
+                "attribute2": 6,
+                "constant": 20,
+                "from_object": "updateButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "playButton",
+                "type": 2
+              },
+              {
+                "attribute1": 8,
+                "attribute2": 0,
+                "constant": 44,
+                "from_object": "playButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 1
+              },
+              {
+                "attribute1": 10,
+                "attribute2": 0,
+                "constant": -30,
+                "from_object": "playButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "buttonsContainerView",
+                "type": 3
+              }
+            ],
+            "name": "playButton",
+            "parent_name": "buttonsContainerView",
+            "type": "whiteButton"
+          },
+          {
+            "constraints": [
+              {
+                "attribute1": 5,
+                "attribute2": 5,
+                "constant": 20,
+                "from_object": "buyButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 7
+              },
+              {
+                "attribute1": 6,
+                "attribute2": 6,
+                "constant": 20,
+                "from_object": "buyButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 7
+              },
+              {
+                "attribute1": 8,
+                "attribute2": 0,
+                "constant": 44,
+                "from_object": "buyButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": null,
+                "type": 1
+              },
+              {
+                "attribute1": 3,
+                "attribute2": 4,
+                "constant": 15,
+                "from_object": "buyButton",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "playButton",
+                "type": 2
+              }
+            ],
+            "name": "buyButton",
+            "parameters": {
+              "states": [
+                {
+                  "state": 0,
+                  "title": "╨Ü╨ú╨ƒ╨ÿ╨ó╨¼ ╨æ╨ÿ╨¢╨ò╨ó╨½"
+                }
+              ]
+            },
+            "parent_name": "buttonsContainerView",
+            "type": "whiteButton"
+          }
+        ]
+      },
+      "ticket": {
+        "basePart": {
+          "constraints": [
+            {
+              "attribute1": 3,
+              "attribute2": 0,
+              "constant": 0,
+              "from_object": "basePart",
+              "multiplier": 0,
+              "offset": 0,
+              "relation": 0,
+              "to_object": null,
+              "type": 7
+            },
+            {
+              "attribute1": 5,
+              "attribute2": 0,
+              "constant": 0,
+              "from_object": "basePart",
+              "multiplier": 0,
+              "offset": 0,
+              "relation": 0,
+              "to_object": null,
+              "type": 7
+            },
+            {
+              "attribute1": 6,
+              "attribute2": 0,
+              "constant": 0,
+              "from_object": "basePart",
+              "multiplier": 0,
+              "offset": 0,
+              "relation": 0,
+              "to_object": null,
+              "type": 7
+            },
+            {
+              "attribute1": 8,
+              "attribute2": 7,
+              "constant": 0,
+              "from_object": "basePart",
+              "multiplier": 0.81,
+              "offset": 0,
+              "relation": 0,
+              "to_object": "basePart",
+              "type": 8
+            }
+          ],
+          "elements": [
+            {
+              "constraints": [
+                {
+                  "attribute1": 14,
+                  "attribute2": 0,
+                  "constant": 0,
+                  "from_object": "backgroundImageView",
+                  "multiplier": 0,
+                  "offset": 0,
+                  "relation": 0,
+                  "to_object": "resultView",
+                  "type": 4
+                }
+              ],
+              "name": "backgroundImageView",
+              "parameters": {
+                "image": "ios_happystarts_basketball_api_ticket_bg"
+              },
+              "parent_name": null,
+              "type": "imageView"
+            },
+            {
+              "constraints": [
+                {
+                  "attribute1": 7,
+                  "attribute2": 0,
+                  "constant": 120,
+                  "from_object": "barcodeImageView",
+                  "multiplier": 0,
+                  "offset": 0,
+                  "relation": 0,
+                  "to_object": null,
+                  "type": 1
+                },
+                {
+                  "attribute1": 8,
+                  "attribute2": 0,
+                  "constant": 20,
+                  "from_object": "barcodeImageView",
+                  "multiplier": 0,
+                  "offset": 0,
+                  "relation": 0,
+                  "to_object": null,
+                  "type": 1
+                },
+                {
+                  "attribute1": 5,
+                  "attribute2": 0,
+                  "constant": -40,
+                  "from_object": "barcodeImageView",
+                  "multiplier": 0,
+                  "offset": 0,
+                  "relation": 0,
+                  "to_object": "superView",
+                  "type": 7
+                },
+                {
+                  "attribute1": 3,
+                  "attribute2": 0,
+                  "constant": 10,
+                  "from_object": "barcodeImageView",
+                  "multiplier": 0,
+                  "offset": 0,
+                  "relation": 0,
+                  "to_object": "superView",
+                  "type": 7
+                }
+              ],
+              "name": "barcodeImageView",
+              "parameters": {
+                "color": [
+                  255,
+                  255,
+                  255,
+                  1
+                ],
+                "game": "happystarts_basketball_api",
+                "style": 0
+              },
+              "parent_name": null,
+              "type": "barcodeView"
+            }
+          ]
+        },
+        "interactionZone": {
+          "constraints": [
+            {
+              "attribute1": 4,
+              "attribute2": 0,
+              "constant": 0,
+              "from_object": "interactionZone",
+              "multiplier": 0,
+              "offset": 0,
+              "relation": 0,
+              "to_object": null,
+              "type": 7
+            },
+            {
+              "attribute1": 5,
+              "attribute2": 0,
+              "constant": 0,
+              "from_object": "interactionZone",
+              "multiplier": 0,
+              "offset": 0,
+              "relation": 0,
+              "to_object": null,
+              "type": 7
+            },
+            {
+              "attribute1": 6,
+              "attribute2": 0,
+              "constant": 0,
+              "from_object": "interactionZone",
+              "multiplier": 0,
+              "offset": 0,
+              "relation": 0,
+              "to_object": null,
+              "type": 7
+            },
+            {
+              "attribute1": 8,
+              "attribute2": 7,
+              "constant": 0,
+              "from_object": "interactionZone",
+              "multiplier": 0.41,
+              "offset": 0,
+              "relation": 0,
+              "to_object": "interactionZone",
+              "type": 8
+            }
+          ],
+          "elements": [
+            {
+              "constraints": [
+                {
+                  "attribute1": 0,
+                  "attribute2": 0,
+                  "constant": 0,
+                  "from_object": "scratchField",
+                  "multiplier": 0,
+                  "offset": 0,
+                  "relation": 0,
+                  "to_object": null,
+                  "type": 4
+                }
+              ],
+              "elements": [
+                {
+                  "constraints": [
+                    {
+                      "attribute1": 0,
+                      "attribute2": 0,
+                      "constant": 0,
+                      "from_object": "backgroundImageView",
+                      "multiplier": 0,
+                      "offset": 0,
+                      "relation": 0,
+                      "to_object": null,
+                      "type": 4
+                    }
+                  ],
+                  "name": "backgroundImageView",
+                  "parameters": {
+                    "image": "ios_happystarts_basketball_api_ticket_scratch_base"
+                  },
+                  "parent_name": null,
+                  "type": "imageView"
+                },
+                {
+                  "constraints": [
+                    {
+                      "attribute1": 14,
+                      "attribute2": 0,
+                      "constant": 0,
+                      "from_object": "prizeLabel",
+                      "multiplier": 0,
+                      "offset": 0,
+                      "relation": 0,
+                      "to_object": null,
+                      "type": 4
+                    }
+                  ],
+                  "name": "prizeLabel",
+                  "parameters": {
+                    "font": {
+                      "name": "BeauSans-Rub-SemiBold",
+                      "size": 44
+                    },
+                    "textAlignment": 1,
+                    "textColor": [
+                      255,
+                      255,
+                      255,
+                      1
+                    ]
+                  },
+                  "parent_name": null,
+                  "type": "label"
+                },
+                {
+                  "constraints": [
+                    {
+                      "attribute1": 0,
+                      "attribute2": 0,
+                      "constant": 0,
+                      "from_object": "scratchActivityIndicator",
+                      "multiplier": 0,
+                      "offset": 0,
+                      "relation": 0,
+                      "to_object": "superView",
+                      "type": 6
+                    },
+                    {
+                      "attribute1": 7,
+                      "attribute2": 0,
+                      "constant": 30,
+                      "from_object": "scratchActivityIndicator",
+                      "multiplier": 0,
+                      "offset": 0,
+                      "relation": 0,
+                      "to_object": "superView",
+                      "type": 1
+                    },
+                    {
+                      "attribute1": 8,
+                      "attribute2": 0,
+                      "constant": 30,
+                      "from_object": "scratchActivityIndicator",
+                      "multiplier": 0,
+                      "offset": 0,
+                      "relation": 0,
+                      "to_object": "superView",
+                      "type": 1
+                    }
+                  ],
+                  "name": "scratchActivityIndicator",
+                  "parent_name": null,
+                  "type": "activityIndicator"
+                },
+                {
+                  "constraints": [
+                    {
+                      "attribute1": 0,
+                      "attribute2": 0,
+                      "constant": 0,
+                      "from_object": "scratchView",
+                      "multiplier": 0,
+                      "offset": 0,
+                      "relation": 0,
+                      "to_object": null,
+                      "type": 4
+                    }
+                  ],
+                  "name": "scratchView",
+                  "parameters": {
+                    "foregroundImage": "ios_happystarts_basketball_api_ticket_scratch_cover",
+                    "scratchColumns": 7,
+                    "scratchLeftOffset": 81,
+                    "scratchRows": 2,
+                    "scratchSquareSize": 24,
+                    "scratchTopOffset": 56
+                  },
+                  "parent_name": null,
+                  "type": "singleScratchView"
+                }
+              ],
+              "name": "scratchField",
+              "parent_name": null,
+              "type": "scratchField"
+            }
+          ],
+          "type": 1
+        },
+        "result": {
+          "constraints": [
+            {
+              "attribute1": 3,
+              "attribute2": 0,
+              "constant": 0,
+              "from_object": "resultView",
+              "multiplier": 0,
+              "offset": 0,
+              "relation": 0,
+              "to_object": null,
+              "type": 7
+            },
+            {
+              "attribute1": 4,
+              "attribute2": 0,
+              "constant": 0,
+              "from_object": "resultView",
+              "multiplier": 0,
+              "offset": 0,
+              "relation": 0,
+              "to_object": null,
+              "type": 7
+            },
+            {
+              "attribute1": 5,
+              "attribute2": 0,
+              "constant": 0,
+              "from_object": "resultView",
+              "multiplier": 0,
+              "offset": 0,
+              "relation": 0,
+              "to_object": null,
+              "type": 7
+            },
+            {
+              "attribute1": 6,
+              "attribute2": 0,
+              "constant": 0,
+              "from_object": "resultView",
+              "multiplier": 0,
+              "offset": 0,
+              "relation": 0,
+              "to_object": null,
+              "type": 7
+            }
+          ],
+          "elements": [
+            {
+              "constraints": [
+                {
+                  "attribute1": 0,
+                  "attribute2": 0,
+                  "constant": 0,
+                  "from_object": "backgroundImageView",
+                  "multiplier": 0,
+                  "offset": 0,
+                  "relation": 0,
+                  "to_object": "resultView",
+                  "type": 4
+                }
+              ],
+              "name": "backgroundImageView",
+              "parameters": {
+                "image": "ios_happystarts_basketball_api_ticket_bg_result"
+              },
+              "parent_name": null,
+              "type": "imageView"
+            }
+          ],
+          "lose": {
+            "elements": [
+              {
+                "constraints": [
+                  {
+                    "attribute1": 5,
+                    "attribute2": 5,
+                    "constant": 0,
+                    "from_object": "topViewContainer",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 6,
+                    "attribute2": 6,
+                    "constant": 0,
+                    "from_object": "topViewContainer",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 3,
+                    "attribute2": 3,
+                    "constant": 0,
+                    "from_object": "topViewContainer",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 7
+                  }
+                ],
+                "name": "topViewContainer",
+                "parent_name": null,
+                "type": "view"
+              },
+              {
+                "constraints": [
+                  {
+                    "attribute1": 5,
+                    "attribute2": 5,
+                    "constant": 0,
+                    "from_object": "bottomViewContainer",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 6,
+                    "attribute2": 6,
+                    "constant": 0,
+                    "from_object": "bottomViewContainer",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 4,
+                    "attribute2": 4,
+                    "constant": 0,
+                    "from_object": "bottomViewContainer",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 8,
+                    "attribute2": 8,
+                    "constant": 0,
+                    "from_object": "bottomViewContainer",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "topViewContainer",
+                    "type": 5
+                  },
+                  {
+                    "attribute1": 3,
+                    "attribute2": 4,
+                    "constant": 0,
+                    "from_object": "bottomViewContainer",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "topViewContainer",
+                    "type": 2
+                  }
+                ],
+                "name": "bottomViewContainer",
+                "parent_name": null,
+                "type": "view"
+              },
+              {
+                "constraints": [
+                  {
+                    "attribute1": 3,
+                    "attribute2": 3,
+                    "constant": 10,
+                    "from_object": "titleLabel",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "bottomViewContainer",
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 5,
+                    "attribute2": 5,
+                    "constant": 20,
+                    "from_object": "titleLabel",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "bottomViewContainer",
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 6,
+                    "attribute2": 6,
+                    "constant": 20,
+                    "from_object": "titleLabel",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "bottomViewContainer",
+                    "type": 7
+                  }
+                ],
+                "name": "titleLabel",
+                "parameters": {
+                  "font": {
+                    "name": "BeauSans-Rub-SemiBold",
+                    "size": 22
+                  },
+                  "text": {
+                    "en": "",
+                    "ru": "╨ú╨▓╤ï, ╨╜╨░ ╤ì╤é╨╛╤é ╤Ç╨░╨╖\n╨▒╨╡╨╖ ╨▓╤ï╨╕╨│╤Ç╤ï╤ê╨░"
+                  },
+                  "textAlignment": 1,
+                  "textColor": [
+                    255,
+                    255,
+                    255,
+                    1
+                  ]
+                },
+                "parent_name": "bottomViewContainer",
+                "type": "label"
+              },
+              {
+                "constraints": [
+                  {
+                    "attribute1": 5,
+                    "attribute2": 0,
+                    "constant": 30,
+                    "from_object": "hintLabel",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "bottomViewContainer",
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 6,
+                    "attribute2": 0,
+                    "constant": 30,
+                    "from_object": "hintLabel",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "bottomViewContainer",
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 3,
+                    "attribute2": 4,
+                    "constant": 12,
+                    "from_object": "hintLabel",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "titleLabel",
+                    "type": 2
+                  }
+                ],
+                "name": "hintLabel",
+                "parameters": {
+                  "font": {
+                    "name": "BeauSans-Rub-SemiBold",
+                    "size": 13
+                  },
+                  "text": {
+                    "en": "",
+                    "ru": "╨▓╨╛╨╖╨╝╨╛╨╢╨╜╨╛, ╤ü╨╗╨╡╨┤╤â╤Ä╤ë╨╕╨╣ ╨▒╨╕╨╗╨╡╤é\n╨▒╤â╨┤╨╡╤é ╤ü╤ç╨░╤ü╤é╨╗╨╕╨▓╤ï╨╝"
+                  },
+                  "textAlignment": 1,
+                  "textColor": [
+                    255,
+                    255,
+                    255,
+                    0.6
+                  ]
+                },
+                "parent_name": "bottomViewContainer",
+                "type": "label"
+              },
+              {
+                "constraints": [
+                  {
+                    "attribute1": 4,
+                    "attribute2": 0,
+                    "constant": 0,
+                    "from_object": "logoImageView",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "topViewContainer",
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 9,
+                    "attribute2": 0,
+                    "constant": 0,
+                    "from_object": "logoImageView",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "topViewContainer",
+                    "type": 3
+                  },
+                  {
+                    "attribute1": 7,
+                    "attribute2": 0,
+                    "constant": 100,
+                    "from_object": "logoImageView",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 1
+                  },
+                  {
+                    "attribute1": 8,
+                    "attribute2": 0,
+                    "constant": 100,
+                    "from_object": "logoImageView",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 1
+                  }
+                ],
+                "name": "logoImageView",
+                "parameters": {
+                  "image": "ios_happystarts_basketball_api_ticket_result_lose"
+                },
+                "parent_name": "topViewContainer",
+                "type": "imageView"
+              }
+            ],
+            "sound": "ios_happystarts_basketball_api_sound_lose"
+          },
+          "parentView": "basePart",
+          "transition": {
+            "elementName": "resultView",
+            "steps": [
+              {
+                "anchorPointX": 0.42,
+                "anchorPointY": 0,
+                "constraints": [],
+                "delay": 0,
+                "duration": 0.4,
+                "fadeEndAlpha": 0,
+                "fadeStartAlpha": 0,
+                "images": [],
+                "inAnimationParameters": {
+                  "hidden": 0
+                },
+                "repeatCount": 0,
+                "rotationAngle": 1.87,
+                "transitionWithView": "basePart",
+                "types": [
+                  6
+                ],
+                "xSize": 0,
+                "ySize": 0
+              }
+            ]
+          },
+          "win": {
+            "effect": {
+              "constraints": [
+                {
+                  "attribute1": 14,
+                  "attribute2": 0,
+                  "constant": 0,
+                  "from_object": "effect",
+                  "multiplier": 0,
+                  "offset": 0,
+                  "relation": 0,
+                  "to_object": "superView",
+                  "type": 4
+                }
+              ],
+              "duration": 0.1,
+              "particles": [
+                {
+                  "birthRate": 300,
+                  "blueRange": 0.8,
+                  "color": [
+                    1,
+                    1,
+                    1,
+                    0.9
+                  ],
+                  "emissionLongitude": 6.28,
+                  "emissionRange": 6.28,
+                  "greenRange": 0.8,
+                  "image": "",
+                  "lifetime": 1.5,
+                  "lifetimeRange": 0.4,
+                  "name": "xui",
+                  "redRange": 0.8,
+                  "scale": 0.6,
+                  "scaleRange": 0.3,
+                  "spinRange": 10,
+                  "velocity": 500,
+                  "velocityRange": 50,
+                  "yAcceleration": 150
+                }
+              ]
+            },
+            "elements": [
+              {
+                "constraints": [
+                  {
+                    "attribute1": 9,
+                    "attribute2": 0,
+                    "constant": 0,
+                    "from_object": "titleLabel",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "superView",
+                    "type": 3
+                  },
+                  {
+                    "attribute1": 10,
+                    "attribute2": 0,
+                    "constant": 20,
+                    "from_object": "titleLabel",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "superView",
+                    "type": 3
+                  }
+                ],
+                "name": "titleLabel",
+                "parameters": {
+                  "font": {
+                    "name": "BeauSans-Rub-SemiBold",
+                    "size": 22
+                  },
+                  "text": {
+                    "en": "Congratulations!\nYou won.",
+                    "ru": "╨ƒ╨╛╨╖╨┤╤Ç╨░╨▓╨╗╤Å╨╡╨╝!\n╨Æ╤ï ╨▓╤ï╨╕╨│╤Ç╨░╨╗╨╕."
+                  },
+                  "textAlignment": 1,
+                  "textColor": [
+                    255,
+                    255,
+                    255,
+                    1
+                  ]
+                },
+                "parent_name": null,
+                "type": "label"
+              },
+              {
+                "constraints": [
+                  {
+                    "attribute1": 5,
+                    "attribute2": 0,
+                    "constant": 30,
+                    "from_object": "hintLabel",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 6,
+                    "attribute2": 0,
+                    "constant": 30,
+                    "from_object": "hintLabel",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 3,
+                    "attribute2": 4,
+                    "constant": 12,
+                    "from_object": "hintLabel",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "titleLabel",
+                    "type": 2
+                  }
+                ],
+                "name": "hintLabel",
+                "parameters": {
+                  "font": {
+                    "name": "BeauSans-Rub-SemiBold",
+                    "size": 13
+                  },
+                  "text": {
+                    "en": "test",
+                    "ru": "╨Æ╤ï╨╕╨│╤Ç╤ï╤ê ╨░╨▓╤é╨╛╨╝╨░╤é╨╕╤ç╨╡╤ü╨║╨╕\n╨┐╨╡╤Ç╨╡╨▓╨╡╨┤╨╡╨╜ ╨▓╨░╨╝ ╨▓ ╨Ü╨╛╤ê╨╡╨╗╤æ╨║"
+                  },
+                  "textAlignment": 1,
+                  "textColor": [
+                    255,
+                    255,
+                    255,
+                    0.6
+                  ]
+                },
+                "parent_name": null,
+                "type": "label"
+              },
+              {
+                "constraints": [
+                  {
+                    "attribute1": 8,
+                    "attribute2": 0,
+                    "constant": 44,
+                    "from_object": "resultHowToGetWinButton",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 1
+                  },
+                  {
+                    "attribute1": 6,
+                    "attribute2": 5,
+                    "constant": 24,
+                    "from_object": "resultHowToGetWinButton",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "bottomContainer",
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 5,
+                    "attribute2": 6,
+                    "constant": 24,
+                    "from_object": "resultHowToGetWinButton",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "bottomContainer",
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 3,
+                    "attribute2": 4,
+                    "constant": 12,
+                    "from_object": "resultHowToGetWinButton",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "titleLabel",
+                    "type": 2
+                  }
+                ],
+                "name": "resultHowToGetWinButton",
+                "parameters": {
+                  "states": [
+                    {
+                      "state": 0,
+                      "title": "╨Ü╨░╨║ ╨┐╨╛╨╗╤â╤ç╨╕╤é╤î ╨▓╤ï╨╕╨│╤Ç╤ï╤ê"
+                    }
+                  ]
+                },
+                "parent_name": null,
+                "type": "whiteButton"
+              },
+              {
+                "constraints": [
+                  {
+                    "attribute1": 3,
+                    "attribute2": 0,
+                    "constant": 0,
+                    "from_object": "logoBackgroundView",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 5,
+                    "attribute2": 0,
+                    "constant": 0,
+                    "from_object": "logoBackgroundView",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 6,
+                    "attribute2": 0,
+                    "constant": 0,
+                    "from_object": "logoBackgroundView",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 7
+                  },
+                  {
+                    "attribute1": 4,
+                    "attribute2": 3,
+                    "constant": 0,
+                    "from_object": "logoBackgroundView",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": "titleLabel",
+                    "type": 2
+                  }
+                ],
+                "name": "logoBackgroundView",
+                "parent_name": null,
+                "type": "view"
+              },
+              {
+                "constraints": [
+                  {
+                    "attribute1": 3,
+                    "attribute2": 4,
+                    "constant": 40,
+                    "from_object": "logoImageView",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 6
+                  },
+                  {
+                    "attribute1": 7,
+                    "attribute2": 0,
+                    "constant": 100,
+                    "from_object": "logoImageView",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 1
+                  },
+                  {
+                    "attribute1": 8,
+                    "attribute2": 0,
+                    "constant": 100,
+                    "from_object": "logoImageView",
+                    "multiplier": 0,
+                    "offset": 0,
+                    "relation": 0,
+                    "to_object": null,
+                    "type": 1
+                  }
+                ],
+                "name": "logoImageView",
+                "parameters": {
+                  "image": "ios_happystarts_basketball_api_ticket_result_win"
+                },
+                "parent_name": "logoBackgroundView",
+                "type": "imageView"
+              }
+            ],
+            "sound": "ios_happystarts_basketball_api_sound_win"
+          }
+        }
+      },
+      "ticketsController": {
+        "elements": [
+          {
+            "constraints": [
+              {
+                "attribute1": 0,
+                "attribute2": 0,
+                "constant": 0,
+                "from_object": "controllerBackgroundImageView",
+                "multiplier": 0,
+                "offset": 0,
+                "relation": 0,
+                "to_object": "superView",
+                "type": 4
+              }
+            ],
+            "name": "controllerBackgroundImageView",
+            "parameters": {
+              "image": "ios_happystarts_basketball_api_bg_tablet"
+            },
+            "parent_name": null,
+            "type": "imageView"
+          }
+        ]
+      },
+      "widthOriginal": 500
+    },
+    "data": {
+      "draw_date": 4575733200000,
+      "draw_number": 1,
+      "draw_stopsale_date": 10825650000000,
+      "draw_superprize": 0,
+      "max_bet": 20,
+      "draw_startsale_date": 10825650000000,
+      "resources": {
+        "images": [
+          {
+            "_id": "563b291bad838dae9a01a90a",
+            "name": "android_happystarts_basketball_api_bg_mdpi.png",
+            "url": "/static/c/9/f/39598-birjfd.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a909",
+            "name": "android_happystarts_basketball_api_cart_logo_mdpi.png",
+            "url": "/static/8/0/c/39598-10dn5l2.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a908",
+            "name": "android_happystarts_basketball_api_list_bg_hdpi.png",
+            "url": "/static/5/1/c/39598-6icaly.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a907",
+            "name": "android_happystarts_basketball_api_list_icon_xhdpi.png",
+            "url": "/static/b/5/d/39598-1a0oyu0.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a906",
+            "name": "android_happystarts_basketball_api_main_bg_sw600dp_xhdpi.png",
+            "url": "/static/f/c/2/39598-ew3owq.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a905",
+            "name": "android_happystarts_basketball_api_ticket_logo_mdpi.png",
+            "url": "/static/9/1/b/39598-1bn1ed3.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a904",
+            "name": "android_happystarts_basketball_api_ticket_scratch_base_mdpi.png",
+            "url": "/static/a/7/6/39598-5lq2yf.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a903",
+            "name": "ios_happystarts_basketball_api_bunny@2x.png",
+            "url": "/static/5/c/9/39598-12ejg0m.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a902",
+            "name": "ios_happystarts_basketball_api_cart_filter_logo.png",
+            "url": "/static/f/0/5/39598-1yfd1t.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a901",
+            "name": "ios_happystarts_basketball_api_list_cell_background@2x.png",
+            "url": "/static/8/8/b/39598-13j58r6.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a900",
+            "name": "ios_happystarts_basketball_api_logo_black_ru.png",
+            "url": "/static/b/3/f/39598-1nljd5n.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8ff",
+            "name": "ios_happystarts_basketball_api_logo_blue_ru@2x.png",
+            "url": "/static/c/c/c/39598-q7w2wz.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8fe",
+            "name": "ios_happystarts_basketball_api_logo_white.png",
+            "url": "/static/0/9/5/39598-ea9va6.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8fd",
+            "name": "ios_happystarts_basketball_api_lose_snow@2x.png",
+            "url": "/static/a/7/8/39598-4t9spz.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8fc",
+            "name": "ios_happystarts_basketball_api_scratch_behind@2x.png",
+            "url": "/static/3/7/1/39598-nbspha.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8fb",
+            "name": "ios_happystarts_basketball_api_ticket_bg@2x.png",
+            "url": "/static/7/9/3/39598-1cpjq76.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8fa",
+            "name": "ios_happystarts_basketball_api_ticket_outoftickets_bg@2x.png",
+            "url": "/static/0/4/3/39598-ugi3e8.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8f9",
+            "name": "ios_happystarts_basketball_api_ticket_scratch_base@2x.png",
+            "url": "/static/7/6/5/39598-1r11uu4.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8f8",
+            "name": "ios_happystarts_basketball_api_win_circleshine_small@2x.png",
+            "url": "/static/4/2/1/39598-e8bxhu.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8f7",
+            "name": "android_happystarts_basketball_api_cart_filter_hdpi.png",
+            "url": "/static/9/5/7/39598-1bpy9ac.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8f6",
+            "name": "android_happystarts_basketball_api_cart_logo_xhdpi.png",
+            "url": "/static/4/5/5/39598-145xnq0.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8f5",
+            "name": "android_happystarts_basketball_api_list_bg_mdpi.png",
+            "url": "/static/9/d/8/39598-vhpz29.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8f4",
+            "name": "android_happystarts_basketball_api_main_bg_hdpi.png",
+            "url": "/static/c/5/e/39598-1aiq3q7.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8f3",
+            "name": "android_happystarts_basketball_api_main_bg_xhdpi.png",
+            "url": "/static/5/1/3/39598-qlsyhb.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8f2",
+            "name": "android_happystarts_basketball_api_ticket_logo_xhdpi.png",
+            "url": "/static/a/a/a/39598-ewwfvr.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8f1",
+            "name": "android_happystarts_basketball_api_ticket_scratch_cover_mdpi.png",
+            "url": "/static/3/6/8/39598-su48vw.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8f0",
+            "name": "ios_happystarts_basketball_api_buymore_bg_iPad@2x.png",
+            "url": "/static/8/a/0/39598-5sdt6g.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8ef",
+            "name": "ios_happystarts_basketball_api_cart_filter_logo@2x.png",
+            "url": "/static/1/f/f/39598-1k47atb.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8ee",
+            "name": "ios_happystarts_basketball_api_list_cell_logo@2x.png",
+            "url": "/static/1/1/f/39598-1ho680k.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8ed",
+            "name": "ios_happystarts_basketball_api_logo_black_ru@2x.png",
+            "url": "/static/4/6/f/39598-1ltu1bo.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8ec",
+            "name": "ios_happystarts_basketball_api_logo_green.png",
+            "url": "/static/3/3/c/39598-yg0erl.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8eb",
+            "name": "ios_happystarts_basketball_api_logo_white@2x.png",
+            "url": "/static/6/d/f/39598-1vwhylj.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8ea",
+            "name": "ios_happystarts_basketball_api_main_bg@2x.png",
+            "url": "/static/d/2/4/39598-124nszc.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8e9",
+            "name": "ios_happystarts_basketball_api_scratch_field@2x.png",
+            "url": "/static/4/1/9/39598-6f4r59.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8e8",
+            "name": "ios_happystarts_basketball_api_ticket_bg_iPad@2x.png",
+            "url": "/static/c/b/b/39598-h7nyx2.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8e7",
+            "name": "ios_happystarts_basketball_api_ticket_outoftickets_logo@2x.png",
+            "url": "/static/4/c/c/39598-gmvsk5.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8e6",
+            "name": "ios_happystarts_basketball_api_ticket_scratch_cover@2x.png",
+            "url": "/static/b/e/2/39598-1x6nyv7.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8e5",
+            "name": "ios_happystarts_basketball_api_win_logo@2x.png",
+            "url": "/static/9/8/1/39598-cu5dba.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8e4",
+            "name": "android_happystarts_basketball_api_cart_filter_mdpi.png",
+            "url": "/static/9/9/9/39598-77eb18.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8e3",
+            "name": "android_happystarts_basketball_api_filter_logo_hdpi.png",
+            "url": "/static/d/a/1/39598-8ssads.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8e2",
+            "name": "android_happystarts_basketball_api_list_bg_xhdpi.png",
+            "url": "/static/c/f/0/39598-4yv98w.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8e1",
+            "name": "android_happystarts_basketball_api_main_bg_mdpi.png",
+            "url": "/static/3/9/5/39598-5ekyxc.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8e0",
+            "name": "android_happystarts_basketball_api_ticket_bg_mdpi.png",
+            "url": "/static/b/2/8/39598-1mowzjs.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8df",
+            "name": "android_happystarts_basketball_api_ticket_outoftickets_logo_mdpi.png",
+            "url": "/static/1/4/1/39598-vtns4a.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8de",
+            "name": "ios_happystarts_basketball_api_bg@2x.jpg",
+            "url": "/static/c/6/7/39598-1vi5ea0.jpg"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8dd",
+            "name": "ios_happystarts_basketball_api_card_bg@2x.png",
+            "url": "/static/f/e/3/39598-131ewb9.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8dc",
+            "name": "ios_happystarts_basketball_api_cart_filter_logo@3x.png",
+            "url": "/static/3/a/f/39598-jbytgk.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8db",
+            "name": "ios_happystarts_basketball_api_list_cell_logo_ru@2x.png",
+            "url": "/static/7/3/1/39598-dhwpo2.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8da",
+            "name": "ios_happystarts_basketball_api_logo_blue.png",
+            "url": "/static/5/f/e/39598-qme6yy.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8d9",
+            "name": "ios_happystarts_basketball_api_logo_green@2x.png",
+            "url": "/static/9/1/3/39598-1cdr1cw.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8d8",
+            "name": "ios_happystarts_basketball_api_logo_white_ru.png",
+            "url": "/static/a/f/2/39598-xohct2.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8d7",
+            "name": "ios_happystarts_basketball_api_main_logo@2x.png",
+            "url": "/static/3/9/e/39598-wwgttd.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8d6",
+            "name": "ios_happystarts_basketball_api_scratch_field_ru@2x.png",
+            "url": "/static/2/3/5/39598-10tzfw5.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8d5",
+            "name": "ios_happystarts_basketball_api_ticket_bg_result@2x.png",
+            "url": "/static/9/b/9/39598-21xn0g.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8d4",
+            "name": "ios_happystarts_basketball_api_ticket_result_lose@2x.png",
+            "url": "/static/0/3/4/39598-139dfrf.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8d3",
+            "name": "ios_happystarts_basketball_api_ticket_scratch_cover_ru@2x.png",
+            "url": "/static/c/1/c/39598-1ghah6u.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8d2",
+            "name": "ios_happystarts_basketball_api_win_particles@2x.png",
+            "url": "/static/c/3/6/39598-1juwyxa.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8d1",
+            "name": "android_happystarts_basketball_api_cart_filter_xhdpi.png",
+            "url": "/static/7/8/6/39598-1owdd6u.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8d0",
+            "name": "android_happystarts_basketball_api_filter_logo_mdpi.png",
+            "url": "/static/6/8/3/39598-1qefuq0.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8cf",
+            "name": "android_happystarts_basketball_api_list_icon_hdpi.png",
+            "url": "/static/6/1/3/39598-fg0ybh.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8ce",
+            "name": "android_happystarts_basketball_api_main_bg_sw600dp_hdpi.png",
+            "url": "/static/2/9/8/39598-jntbhm.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8cd",
+            "name": "android_happystarts_basketball_api_ticket_bg_result_mdpi.png",
+            "url": "/static/b/e/8/39598-kqtvco.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8cc",
+            "name": "android_happystarts_basketball_api_ticket_result_lose_mdpi.png",
+            "url": "/static/d/2/6/39598-10xa85u.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8cb",
+            "name": "ios_happystarts_basketball_api_bg_iPad@2x.jpg",
+            "url": "/static/d/c/5/39598-1yen1ca.jpg"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8ca",
+            "name": "ios_happystarts_basketball_api_card_logo@2x.png",
+            "url": "/static/e/e/6/39598-narfy8.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8c9",
+            "name": "ios_happystarts_basketball_api_cart_logo_bw_ru@2x.png",
+            "url": "/static/f/f/9/39598-oozv49.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8c8",
+            "name": "ios_happystarts_basketball_api_logo_black.png",
+            "url": "/static/f/9/e/39598-vndrwo.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8c7",
+            "name": "ios_happystarts_basketball_api_logo_blue@2x.png",
+            "url": "/static/e/a/b/39598-1tutdzo.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8c6",
+            "name": "ios_happystarts_basketball_api_logo_green_ru.png",
+            "url": "/static/1/4/6/39598-cnybvb.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8c5",
+            "name": "ios_happystarts_basketball_api_logo_white_ru@2x.png",
+            "url": "/static/6/b/d/39598-1szf8q7.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8c4",
+            "name": "ios_happystarts_basketball_api_multibet_bg_iPad@2x.jpg",
+            "url": "/static/d/9/b/39598-3nfvoj.jpg"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8c3",
+            "name": "ios_happystarts_basketball_api_ticket_bg4@2x.png",
+            "url": "/static/c/0/7/39598-15oi6gs.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8c2",
+            "name": "ios_happystarts_basketball_api_ticket_frame_iPad@2x.png",
+            "url": "/static/b/4/e/39598-ddmzzz.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8c1",
+            "name": "ios_happystarts_basketball_api_ticket_result_win@2x.png",
+            "url": "/static/b/c/3/39598-10yip3t.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8c0",
+            "name": "ios_happystarts_basketball_api_win_circleshine_big@2x.png",
+            "url": "/static/f/8/0/39598-4fdhhb.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8bf",
+            "name": "ios_happystarts_basketball_api_win_shine@2x.png",
+            "url": "/static/4/9/d/39598-13fu3dg.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8be",
+            "name": "android_happystarts_basketball_api_cart_logo_hdpi.png",
+            "url": "/static/e/4/7/39598-y671lc.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8bd",
+            "name": "android_happystarts_basketball_api_filter_logo_xhdpi.png",
+            "url": "/static/2/3/9/39598-1m5o01p.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8bc",
+            "name": "android_happystarts_basketball_api_list_icon_mdpi.png",
+            "url": "/static/8/3/f/39598-3nasj0.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8bb",
+            "name": "android_happystarts_basketball_api_main_bg_sw600dp_mdpi.png",
+            "url": "/static/b/4/8/39598-ytogdt.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8ba",
+            "name": "android_happystarts_basketball_api_ticket_logo_hdpi.png",
+            "url": "/static/d/c/f/39598-1l4y7qv.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8b9",
+            "name": "android_happystarts_basketball_api_ticket_result_win_mdpi.png",
+            "url": "/static/7/d/a/39598-1a7duwj.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8b8",
+            "name": "ios_happystarts_basketball_api_bg_tablet@2x.jpg",
+            "url": "/static/0/e/b/39598-h1jopj.jpg"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8b7",
+            "name": "ios_happystarts_basketball_api_card_logo_ru@2x.png",
+            "url": "/static/e/d/3/39598-ijofmd.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8b6",
+            "name": "ios_happystarts_basketball_api_cart_logo_ru@2x.png",
+            "url": "/static/b/0/9/39598-1lcmelp.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8b5",
+            "name": "ios_happystarts_basketball_api_logo_black@2x.png",
+            "url": "/static/f/5/5/39598-nityl7.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8b4",
+            "name": "ios_happystarts_basketball_api_logo_blue_ru.png",
+            "url": "/static/4/8/a/39598-yzlejd.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8b3",
+            "name": "ios_happystarts_basketball_api_logo_green_ru@2x.png",
+            "url": "/static/5/d/7/39598-73f6zl.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8b2",
+            "name": "ios_happystarts_basketball_api_loose_ears@2x.png",
+            "url": "/static/2/3/0/39598-9pemvm.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8b1",
+            "name": "ios_happystarts_basketball_api_receipt_large@2x.png",
+            "url": "/static/a/c/a/39598-habv63.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8b0",
+            "name": "ios_happystarts_basketball_api_ticket_bg5@2x.png",
+            "url": "/static/1/3/b/39598-bd0rnc.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8af",
+            "name": "ios_happystarts_basketball_api_ticket_img_result@2x.png",
+            "url": "/static/f/a/5/39598-ffliqp.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8ae",
+            "name": "ios_happystarts_basketball_api_ticket_scratch_background@2x.png",
+            "url": "/static/c/9/2/39598-djmrt1.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8ad",
+            "name": "ios_happystarts_basketball_api_win_circleshine_mid@2x.png",
+            "url": "/static/4/5/c/39598-9j07g4.png"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8ac",
+            "name": "ios_happystarts_basketball_api_win_shine_ticket@2x.png",
+            "url": "/static/7/3/5/39598-pa7az4.png"
+          },
+          {
+            "_id": "563b842c70030941a05107ac",
+            "name": "android_happystarts_basketball_api_list_logo_mdpi.png",
+            "url": "/static/0/1/6/41025-g3r640.png"
+          },
+          {
+            "_id": "563b842c70030941a05107ab",
+            "name": "android_happystarts_basketball_api_list_logo_hdpi.png",
+            "url": "/static/a/2/1/41025-hllsqb.png"
+          },
+          {
+            "_id": "563b842c70030941a05107aa",
+            "name": "android_happystarts_basketball_api_list_logo_xhdpi.png",
+            "url": "/static/a/0/7/41025-g2vyta.png"
+          },
+          {
+            "name": "android_happystarts_basketball_api_ticket_outoftickets_bg_xhdpi.png",
+            "url": "/static/2/4/9/54708-1dtwtpu.png",
+            "_id": "56477e1f94a5fbb4d551147a"
+          },
+          {
+            "name": "android_happystarts_basketball_api_bg_xhdpi.png",
+            "url": "/static/5/7/3/54708-vdzyr.jpg",
+            "_id": "56477e1f94a5fbb4d5511479"
+          },
+          {
+            "name": "android_happystarts_basketball_api_ticket_outoftickets_logo_xhdpi.png",
+            "url": "/static/7/5/f/54708-15m4eq3.png",
+            "_id": "56477e1f94a5fbb4d5511478"
+          },
+          {
+            "name": "android_happystarts_basketball_api_ticket_bg_xhdpi.png",
+            "url": "/static/0/3/1/54708-nsl1my.png",
+            "_id": "56477e1f94a5fbb4d5511477"
+          },
+          {
+            "name": "android_happystarts_basketball_api_ticket_scratch_base_xhdpi.png",
+            "url": "/static/4/a/4/54708-z7ln6i.png",
+            "_id": "56477e1f94a5fbb4d5511476"
+          },
+          {
+            "name": "android_happystarts_basketball_api_ticket_scratch_cover_xhdpi.png",
+            "url": "/static/d/f/a/54708-xuq8v5.png",
+            "_id": "56477e1f94a5fbb4d5511475"
+          },
+          {
+            "name": "android_happystarts_basketball_api_ticket_bg_result_xhdpi.png",
+            "url": "/static/8/8/2/54708-1pt8uu3.png",
+            "_id": "56477e1f94a5fbb4d5511474"
+          },
+          {
+            "name": "android_happystarts_basketball_api_ticket_result_lose_xhdpi.png",
+            "url": "/static/8/a/f/54708-1rfc0ad.png",
+            "_id": "56477e1f94a5fbb4d5511473"
+          },
+          {
+            "name": "android_happystarts_basketball_api_ticket_result_win_xhdpi.png",
+            "url": "/static/6/6/d/54708-1wlyg0k.png",
+            "_id": "56477e1f94a5fbb4d5511472"
+          },
+          {
+            "name": "android_happystarts_basketball_api_bg_tablet_xhdpi.png",
+            "url": "/static/4/e/f/54708-1i63d6i.jpg",
+            "_id": "56477e1f94a5fbb4d5511471"
+          }
+        ],
+        "sounds": [
+          {
+            "_id": "563b291bad838dae9a01a8ab",
+            "name": "android_happystarts_sound_lose.mp3",
+            "url": "/static/b/3/0/39598-ugq5iz.mp3"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8aa",
+            "name": "ios_happystarts_sound_win.mp3",
+            "url": "/static/0/e/6/39598-r92hm2.mp3"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8a9",
+            "name": "android_happystarts_sound_win.mp3",
+            "url": "/static/c/9/a/39598-w6siwo.mp3"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8a8",
+            "name": "ios_happystarts_basketball_api_sound_lose.mp3",
+            "url": "/static/9/f/d/39598-leprk7.mp3"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8a7",
+            "name": "ios_happystarts_basketball_api_sound_win.mp3",
+            "url": "/static/7/9/a/39598-1hcqe2d.mp3"
+          },
+          {
+            "_id": "563b291bad838dae9a01a8a6",
+            "name": "ios_happystarts_sound_lose.mp3",
+            "url": "/static/e/a/2/39598-eo9o2i.mp3"
+          }
+        ],
+        "logos": []
+      },
+      "min_version": 0,
+      "min_bet": 20,
+      "multi_draws": [],
+      "multipliers": []
+    },
+    "visibleInReceipts": true,
+    "visibleInChecking": false,
+    "visibleInResults": false,
+    "order": 0
+  }
+]
